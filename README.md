@@ -1,19 +1,3 @@
-# Appointedd TypeScript Programming Challenge
-
-Hi there! 👋
-
-This challenge is designed to allow you to showcase your TypeScript programming skills. There are no requirements apart from the fact that you must use TypeScript. You are welcome to use any libraries you see fit and any online or offline materials to help you program a solution.
-
-Don’t worry if you can’t create a perfect solution. If you write down any shortcomings of your code or if you describe how you would approach the problem we’ll take that into consideration!
-
-## Submission
-
-Please submit your solution via email with either a link to your forked GitHub repository containing your solution or a zip file containing your repository.
-
-Any supplemental notes can be included in your email, the `README.md` file of your repository, or as comments in your code.
-
-## Getting Started
-
 ### System Requirements
 
 In order to work on this programming challenge you'll need [Node.js](https://nodejs.org/en/) installed. I recommend at least the latest LTS version which at the time of writing is **14.18.1 LTS**.
@@ -25,12 +9,6 @@ As with all JavaScript/TypeScript projects the you'll want to install the npm pa
 ```shell
 npm install
 ```
-
-### Alternative: GitHub Codespaces
-
-If you'd prefer to not install anything on your machine, you can try out [GitHub Codespaces](https://github.com/features/codespaces) which will spin up a development environment along with a browser based version of VSCode in the cloud. You can do this by selecting the green **Code** button and choosing the **Codespaces** tab, then choosing **New codespace** on either this code repository or your own fork of this code repository.
-
-![Screen Recording 2021-10-23 at 21 33 11](https://user-images.githubusercontent.com/21124794/138570852-1f2450d1-02a3-4ebc-a129-de153fd76d72.gif)
 
 ### Solving the challenge
 
