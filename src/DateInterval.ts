@@ -7,6 +7,7 @@ export class DateInterval {
         this.endDate = endDate
     }
 
+    // Get the over lap between each two DateIntervals
     public overlap(dateInterval: DateInterval): DateInterval|false {
         const startDate1String: string = this.startDate;
         const startDate1: Date = new Date(startDate1String);
@@ -30,6 +31,7 @@ export class DateInterval {
         return new DateInterval(overlappedStartDate.toISOString(), overlappedEndDate.toISOString());
     }
 
+    // Create an iterable object that will hold the overlapping between each two intervals if exists
     public static *overlapTwoWorkers(dateIntervals1: DateInterval[], dateIntervals2: DateInterval[]): IterableIterator<DateInterval> {
         for (let dateInterval1 of dateIntervals1) {
             for (let dateInterval2 of dateIntervals2) {
@@ -41,6 +43,7 @@ export class DateInterval {
         }
     }
 
+    // Get all the overlaps between all array of the DateIntervals arrays
     public static overlapAll(intervals: DateInterval[][]): DateInterval[] {
         return intervals.reduce((a, b) => Array.from(this.overlapTwoWorkers(a,b)))
     }
